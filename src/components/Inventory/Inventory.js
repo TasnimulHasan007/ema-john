@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react"
 
 const Inventory = () => {
-    return (
-        <div>
-            <h2>This is inventory</h2>
-        </div>
-    );
-};
+  return (
+    <div className="container">
+      <h2>Coming soon</h2>
+    </div>
+  )
+}
 
-export default Inventory;
+export default Inventory

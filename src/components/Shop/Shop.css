@@ -1,17 +1,26 @@
-.search-container{
-    background-color: rgba(0, 0, 0, 0.85);
-    text-align: center;
-    line-height: 40px;
+.search-container {
+  background-color: #221f1f;
+  text-align: center;
 }
-.search-container input{
-    width: 75%;
+.search-container input {
+  padding: 10px;
+  margin: 10px;
+  width: 65%;
+  outline: none;
+  font-size: 1rem;
 }
-.shop-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+
+.shop-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding-block: 40px;
 }
-.product-container{
-    border-right: 1px solid lightgray;
-    margin-right: 5px;
-    margin-left: 50px;
+
+.product-container {
+  border-right: 1px solid lightgray;
+  margin-right: 5px;
+}
+
+.stars {
+  color: #ff9801;
 }

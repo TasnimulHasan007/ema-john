@@ -1,20 +1,20 @@
-.header{
-    text-align: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-    height: 50px;
+.logo {
+  height: 50px;
 }
-.header nav {
-    background-color: black;
-    line-height: 40px;
+.header .navlink {
+  display: inline-block;
+  line-height: 40px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.2s ease;
 }
-.header nav a{
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-    padding: 5px;
-    font-size: 20px;
-}
-.header nav a:hover{
-    background-color: lightgray;
+.header .navlink:hover {
+  background: #ddd;
 }
